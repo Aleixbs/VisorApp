@@ -1,0 +1,337 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          214,
+          180,
+          255
+        ],
+        "outline": {
+          "color": [
+            251,
+            164,
+            93,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "4c510c943d6c423183740fe92624c23c",
+      "mode": "feature",
+      "name": "irpf_Defi",
+      "highLightColor": "#f45e5e",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#f08080"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": true
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "IRPF_PARA_20200_35200"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": false
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "0420f4b4df6e485e84f78d6424cfb90a",
+      "mode": "feature",
+      "name": "Impuesto_Patrimoniodefinitivo",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#f08080"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": true
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "F334252_668499_EUROS"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": false
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          214,
+          180,
+          255
+        ],
+        "outline": {
+          "color": [
+            251,
+            164,
+            93,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "2a844020a45b4a959bd57a1350d3b10a",
+      "mode": "feature",
+      "name": "Impuesto_juridico_documentado",
+      "highLightColor": "#d45b5b",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#f08080"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": true
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "Porcentaje_general"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": false
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          214,
+          180,
+          255
+        ],
+        "outline": {
+          "color": [
+            251,
+            164,
+            93,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "b804d735a07b472ea0aaf6116540c70b",
+      "mode": "feature",
+      "name": "confianza_empresarial_layer",
+      "highLightColor": "#d56a6a",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#ac5928",
+              "#f5ccbf"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": true
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "F2022T4",
+        "F2022T2"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true,
+        "field": "F2022T4"
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          214,
+          180,
+          255
+        ],
+        "outline": {
+          "color": [
+            251,
+            164,
+            93,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "51c1bbdc1fcf4f6087350fb7cb9f1294",
+      "mode": "feature",
+      "name": "TasaParo_defi",
+      "highLightColor": "#e65e5e",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#f08080"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "F2022___TASA_DE_PARO"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": false
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          214,
+          180,
+          255
+        ],
+        "outline": {
+          "color": [
+            251,
+            164,
+            93,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "81382dd4ba444dc08927eaaea46c263d",
+      "mode": "feature",
+      "name": "Inversion_CCAAdefi",
+      "highLightColor": "#cb6262",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#f08080"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "PORCENTAJE_DE_INVERSION_EN_LAS_"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    }
+  ]
+}

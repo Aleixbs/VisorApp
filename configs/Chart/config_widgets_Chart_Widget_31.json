@@ -1,0 +1,337 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          214,
+          180,
+          255
+        ],
+        "outline": {
+          "color": [
+            251,
+            164,
+            93,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "00ccc72063764158a0f58e7a7f2c2a62",
+      "mode": "feature",
+      "name": "I.deSucesiones_ejemplo",
+      "highLightColor": "#d27575",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#f08080"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "Soltero_de_30_años_hereda_biene"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": false
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          214,
+          180,
+          255
+        ],
+        "outline": {
+          "color": [
+            251,
+            164,
+            93,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "0420f4b4df6e485e84f78d6424cfb90a",
+      "mode": "feature",
+      "name": "Impuesto_Patrimoniodefinitivo",
+      "highLightColor": "#ba5f5f",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#f08080"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "F334252_668499_EUROS"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": false
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          214,
+          180,
+          255
+        ],
+        "outline": {
+          "color": [
+            251,
+            164,
+            93,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "b804d735a07b472ea0aaf6116540c70b",
+      "mode": "feature",
+      "name": "confianza_empresarial_layer",
+      "highLightColor": "#d77f7f",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#ac5928",
+              "#f5ccbf"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "F2022T4",
+        "F2022T3"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true,
+        "field": "F2022T4"
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          214,
+          180,
+          255
+        ],
+        "outline": {
+          "color": [
+            251,
+            164,
+            93,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "81382dd4ba444dc08927eaaea46c263d",
+      "mode": "feature",
+      "name": "Inversion_CCAAdefi",
+      "highLightColor": "#c66d6d",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "PORCENTAJE_DE_INVERSION_EN_LAS_"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          214,
+          180,
+          255
+        ],
+        "outline": {
+          "color": [
+            251,
+            164,
+            93,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "0bf58eeca524443c8f2d0d714f42fbc1",
+      "mode": "feature",
+      "name": "IndiCompetitividadDefi",
+      "highLightColor": "#da6a6a",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#f08080"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "INDICE_DE_COMPETITIVIDAD___2021"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          255,
+          214,
+          180,
+          255
+        ],
+        "outline": {
+          "color": [
+            251,
+            164,
+            93,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "591827ba54984be596b6c76520dab75a",
+      "mode": "feature",
+      "name": "ipc_defi",
+      "highLightColor": "#d56767",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "F2023_T1___IPC"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    }
+  ]
+}
