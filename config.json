@@ -21,7 +21,7 @@
   "portalUrl": "https://esrimastergis.maps.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [],
-  "title": "Visor Bizify",
+  "title": "Visor de información Bizify",
   "subtitle": "with ArcGIS Web AppBuilder",
   "keepAppState": true,
   "logo": "images/logo.png",
@@ -83,26 +83,26 @@
         },
         "placeholderIndex": 1,
         "id": "_5",
-        "name": "ArcGISGPT",
+        "name": "BasemapGallery",
         "version": "2.26",
         "closeable": true,
-        "IsController": false,
-        "uri": "widgets/ArcGISGPT/Widget"
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config__5.json"
       },
       {
         "position": {
-          "left": 255,
+          "left": 105,
           "top": 45,
           "relativeTo": "map"
         },
         "placeholderIndex": 1,
         "id": "_6",
-        "name": "LayerList",
-        "label": "Lista de capas_2",
+        "name": "ArcGISGPT_copy",
         "version": "2.26",
         "closeable": true,
-        "uri": "widgets/LayerList/Widget",
-        "config": "configs/LayerList/config__6.json"
+        "IsController": false,
+        "uri": "widgets/ArcGISGPT_copy/Widget",
+        "config": "configs/ArcGISGPT_copy/config__6.json"
       },
       {
         "position": {
@@ -120,20 +120,25 @@
       },
       {
         "position": {
-          "left": 105,
-          "top": 45,
-          "relativeTo": "map"
-        },
-        "placeholderIndex": 1,
-        "id": "_8"
-      },
-      {
-        "position": {
           "left": 205,
           "top": 45,
           "relativeTo": "map"
         },
-        "placeholderIndex": 2,
+        "placeholderIndex": 1,
+        "id": "_8",
+        "version": "2.26",
+        "closeable": true,
+        "uri": "widgets/Swipe/Widget",
+        "name": "Swipe",
+        "config": "configs/Swipe/config__8.json"
+      },
+      {
+        "position": {
+          "left": 255,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
         "id": "_9"
       },
       {
@@ -242,17 +247,7 @@
       "bottom": 0
     },
     "itemId": "f794cdd03ad24b8db955303a9a2af69b",
-    "mapOptions": {
-      "extent": {
-        "xmin": -2621573.8791796183,
-        "ymin": 3240915.5140924416,
-        "xmax": 2270395.9310703613,
-        "ymax": 5858119.362576181,
-        "spatialReference": {
-          "wkid": 102100
-        }
-      }
-    },
+    "mapOptions": {},
     "id": "map",
     "portalUrl": "https://esrimastergis.maps.arcgis.com",
     "mapRefreshInterval": {
@@ -276,25 +271,16 @@
         "version": "2.26",
         "id": "widgets_Legend_Widget_18",
         "name": "Legend",
-        "index": 2
+        "index": 0
       },
       {
         "uri": "widgets/LayerList/Widget",
         "version": "2.26",
         "id": "widgets_LayerList_Widget_19",
         "name": "LayerList",
-        "index": 3
-      },
-      {
-        "name": "Chart",
-        "version": "2.26",
-        "uri": "widgets/Chart/Widget",
-        "config": "configs/Chart/config_widgets_Chart_Widget_31.json",
-        "index": 5,
-        "id": "widgets_Chart_Widget_31"
+        "index": 1
       }
-    ],
-    "groups": []
+    ]
   },
   "mobileLayout": {
     "widgetOnScreen": {
@@ -317,15 +303,15 @@
     }
   },
   "loadingPage": {
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#508dca",
     "backgroundImage": {
       "visible": false
     },
     "loadingGif": {
       "visible": true,
-      "uri": "configs/loading/images/loading.gif",
-      "width": 640,
-      "height": 640
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
     }
   },
   "wabVersion": "2.26",

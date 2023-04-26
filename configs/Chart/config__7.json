@@ -10,16 +10,16 @@
       "description": "",
       "symbol": {
         "color": [
-          255,
-          214,
-          180,
-          255
+          111,
+          128,
+          75,
+          0
         ],
         "outline": {
           "color": [
-            251,
-            164,
-            93,
+            255,
+            255,
+            255,
             255
           ],
           "width": 1.5,
@@ -29,26 +29,136 @@
         "type": "esriSFS",
         "style": "esriSFSSolid"
       },
-      "webMapLayerId": "4c510c943d6c423183740fe92624c23c",
+      "webMapLayerId": "1bc3b2ec35a64d949ded96d5aea53306",
       "mode": "feature",
-      "name": "irpf_Defi",
-      "highLightColor": "#f45e5e",
+      "name": "PIB per cápita",
+      "highLightColor": "#d46262",
       "types": [
         {
           "type": "bar",
           "display": {
             "colors": [
-              "#f08080"
+              "#5d9cd3"
             ],
             "showHorizontalAxis": true,
             "showVerticalAxis": true,
-            "showLegend": true
+            "showLegend": false
           }
         }
       ],
       "labelField": "NAMEUNIT",
       "valueFields": [
-        "IRPF_PARA_20200_35200"
+        "F2021___PIB_PER_CAPITA_EURO"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          0
+        ],
+        "outline": {
+          "color": [
+            200,
+            200,
+            200,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "0bf58eeca524443c8f2d0d714f42fbc1",
+      "mode": "feature",
+      "name": "Indice de competitividad",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "INDICE_DE_COMPETITIVIDAD___2021"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          0
+        ],
+        "outline": {
+          "color": [
+            179,
+            179,
+            179,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "4c510c943d6c423183740fe92624c23c",
+      "mode": "feature",
+      "name": "IRPF",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "NAMEUNIT",
+      "valueFields": [
+        "IRPF_PARA_35200_60000"
       ],
       "sortOrder": {
         "isLabelAxis": false,
@@ -68,16 +178,16 @@
           155,
           187,
           89,
-          128
+          0
         ],
         "outline": {
           "color": [
-            115,
-            140,
-            61,
+            234,
+            234,
+            234,
             255
           ],
-          "width": 1.5,
+          "width": 0.75,
           "type": "esriSLS",
           "style": "esriSLSSolid"
         },
@@ -86,18 +196,18 @@
       },
       "webMapLayerId": "0420f4b4df6e485e84f78d6424cfb90a",
       "mode": "feature",
-      "name": "Impuesto_Patrimoniodefinitivo",
+      "name": "Impuesto al patrimonio",
       "highLightColor": "#ff0000",
       "types": [
         {
           "type": "bar",
           "display": {
             "colors": [
-              "#f08080"
+              "#5d9cd3"
             ],
             "showHorizontalAxis": true,
             "showVerticalAxis": true,
-            "showLegend": true
+            "showLegend": false
           }
         }
       ],
@@ -108,229 +218,6 @@
       "sortOrder": {
         "isLabelAxis": false,
         "isAsc": false
-      }
-    },
-    {
-      "url": "",
-      "filter": {
-        "logicalOperator": "AND",
-        "parts": [],
-        "expr": "1=1"
-      },
-      "description": "",
-      "symbol": {
-        "color": [
-          255,
-          214,
-          180,
-          255
-        ],
-        "outline": {
-          "color": [
-            251,
-            164,
-            93,
-            255
-          ],
-          "width": 1.5,
-          "type": "esriSLS",
-          "style": "esriSLSSolid"
-        },
-        "type": "esriSFS",
-        "style": "esriSFSSolid"
-      },
-      "webMapLayerId": "2a844020a45b4a959bd57a1350d3b10a",
-      "mode": "feature",
-      "name": "Impuesto_juridico_documentado",
-      "highLightColor": "#d45b5b",
-      "types": [
-        {
-          "type": "bar",
-          "display": {
-            "colors": [
-              "#f08080"
-            ],
-            "showHorizontalAxis": true,
-            "showVerticalAxis": true,
-            "showLegend": true
-          }
-        }
-      ],
-      "labelField": "NAMEUNIT",
-      "valueFields": [
-        "Porcentaje_general"
-      ],
-      "sortOrder": {
-        "isLabelAxis": false,
-        "isAsc": false
-      }
-    },
-    {
-      "url": "",
-      "filter": {
-        "logicalOperator": "AND",
-        "parts": [],
-        "expr": "1=1"
-      },
-      "description": "",
-      "symbol": {
-        "color": [
-          255,
-          214,
-          180,
-          255
-        ],
-        "outline": {
-          "color": [
-            251,
-            164,
-            93,
-            255
-          ],
-          "width": 1.5,
-          "type": "esriSLS",
-          "style": "esriSLSSolid"
-        },
-        "type": "esriSFS",
-        "style": "esriSFSSolid"
-      },
-      "webMapLayerId": "b804d735a07b472ea0aaf6116540c70b",
-      "mode": "feature",
-      "name": "confianza_empresarial_layer",
-      "highLightColor": "#d56a6a",
-      "types": [
-        {
-          "type": "bar",
-          "display": {
-            "colors": [
-              "#ac5928",
-              "#f5ccbf"
-            ],
-            "showHorizontalAxis": true,
-            "showVerticalAxis": true,
-            "showLegend": true
-          }
-        }
-      ],
-      "labelField": "NAMEUNIT",
-      "valueFields": [
-        "F2022T4",
-        "F2022T2"
-      ],
-      "sortOrder": {
-        "isLabelAxis": false,
-        "isAsc": true,
-        "field": "F2022T4"
-      }
-    },
-    {
-      "url": "",
-      "filter": {
-        "logicalOperator": "AND",
-        "parts": [],
-        "expr": "1=1"
-      },
-      "description": "",
-      "symbol": {
-        "color": [
-          255,
-          214,
-          180,
-          255
-        ],
-        "outline": {
-          "color": [
-            251,
-            164,
-            93,
-            255
-          ],
-          "width": 1.5,
-          "type": "esriSLS",
-          "style": "esriSLSSolid"
-        },
-        "type": "esriSFS",
-        "style": "esriSFSSolid"
-      },
-      "webMapLayerId": "51c1bbdc1fcf4f6087350fb7cb9f1294",
-      "mode": "feature",
-      "name": "TasaParo_defi",
-      "highLightColor": "#e65e5e",
-      "types": [
-        {
-          "type": "bar",
-          "display": {
-            "colors": [
-              "#f08080"
-            ],
-            "showHorizontalAxis": true,
-            "showVerticalAxis": true,
-            "showLegend": false
-          }
-        }
-      ],
-      "labelField": "NAMEUNIT",
-      "valueFields": [
-        "F2022___TASA_DE_PARO"
-      ],
-      "sortOrder": {
-        "isLabelAxis": false,
-        "isAsc": false
-      }
-    },
-    {
-      "url": "",
-      "filter": {
-        "logicalOperator": "AND",
-        "parts": [],
-        "expr": "1=1"
-      },
-      "description": "",
-      "symbol": {
-        "color": [
-          255,
-          214,
-          180,
-          255
-        ],
-        "outline": {
-          "color": [
-            251,
-            164,
-            93,
-            255
-          ],
-          "width": 1.5,
-          "type": "esriSLS",
-          "style": "esriSLSSolid"
-        },
-        "type": "esriSFS",
-        "style": "esriSFSSolid"
-      },
-      "webMapLayerId": "81382dd4ba444dc08927eaaea46c263d",
-      "mode": "feature",
-      "name": "Inversion_CCAAdefi",
-      "highLightColor": "#cb6262",
-      "types": [
-        {
-          "type": "bar",
-          "display": {
-            "colors": [
-              "#f08080"
-            ],
-            "showHorizontalAxis": true,
-            "showVerticalAxis": true,
-            "showLegend": false
-          }
-        }
-      ],
-      "labelField": "NAMEUNIT",
-      "valueFields": [
-        "PORCENTAJE_DE_INVERSION_EN_LAS_"
-      ],
-      "sortOrder": {
-        "isLabelAxis": false,
-        "isAsc": true
       }
     }
   ]

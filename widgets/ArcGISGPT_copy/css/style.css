@@ -1,0 +1,104 @@
+.jimu-widget-chat-gpt{
+    width: 100%;
+    height:100%;
+    font-family: 'Avenir Light', Verdana, Geneva, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-y:auto; 
+    overflow-x: auto;
+}
+
+.jimu-widget-chat-gpt #chat{
+    overflow-y:auto; 
+    overflow-x: auto;
+}
+
+.jimu-widget-chat-gpt .respuesta-style{
+    width:77%;
+    box-sizing:content-box;
+    padding:6px 24px 6px 12px;
+    background-color: rgb(230, 230, 230);
+    font-size: 14px;
+    line-height: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px 4px 4px 0; 
+    margin-bottom: 10px;
+}
+
+.jimu-widget-chat-gpt .chat-style{
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    width:77%;
+    box-sizing:content-box;
+    padding:6px 24px 6px 12px;
+    background-color: rgb(172, 172, 172);
+    font-size: 14px;
+    line-height: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px 4px 0 4px; 
+}
+
+.jimu-widget-chat-gpt #user-input{
+    width:70%;
+    display:block;
+    box-sizing:content-box;
+    padding:6px 24px 6px 12px;
+    font-size: 14px;
+    line-height: 20px; 
+    float: left; 
+    height: 20px; 
+    color: #4c4c4c; 
+    border: 1px solid #57585A; 
+    border-right: 0; 
+    border-radius: 4px 0 0 4px; 
+    transition: width .175s ease-in; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jimu-widget-chat-gpt #btn-div{
+    /* width:100%; 
+    box-sizing:border-box; 
+    height:35px;
+    padding:5px; */
+    display: block;
+    float: left;
+    padding: 6px 12px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    white-space: nowrap;
+    /* vertical-align: middle; */
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #57585A;
+    -webkit-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+    background-color: #fff;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-image: url("https://www.svgrepo.com/show/201996/paper-plane.svg") no-repeat;
+}
+
+.jimu-widget-chat-gpt #activador{
+    padding:2px; 
+    font-size: 12px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 8px;
+    border-color:rgb(172, 172, 172);
+
+}
+
+#negrita{
+    font-weight: bolder;
+}

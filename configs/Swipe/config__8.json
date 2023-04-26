@@ -1,0 +1,62 @@
+{
+  "style": "scope",
+  "layerState": {
+    "00ccc72063764158a0f58e7a7f2c2a62": {
+      "selected": true
+    },
+    "4c510c943d6c423183740fe92624c23c": {
+      "selected": true
+    },
+    "0420f4b4df6e485e84f78d6424cfb90a": {
+      "selected": true
+    },
+    "2a844020a45b4a959bd57a1350d3b10a": {
+      "selected": true
+    },
+    "1bc3b2ec35a64d949ded96d5aea53306": {
+      "selected": true
+    },
+    "b804d735a07b472ea0aaf6116540c70b": {
+      "selected": true
+    },
+    "a75190c3d954439c84354445c76a546c": {
+      "selected": true
+    },
+    "591827ba54984be596b6c76520dab75a": {
+      "selected": true
+    },
+    "51c1bbdc1fcf4f6087350fb7cb9f1294": {
+      "selected": true
+    },
+    "d31faf90300d47ae9ae240fd3efc6316": {
+      "selected": true
+    },
+    "81382dd4ba444dc08927eaaea46c263d": {
+      "selected": true
+    },
+    "b5cc38455669461494c1654c57c0ddd9": {
+      "selected": true
+    },
+    "155e2f7641214f6e83868a93442ecdb8": {
+      "selected": true
+    },
+    "0bf58eeca524443c8f2d0d714f42fbc1": {
+      "selected": true
+    },
+    "09c03cad5ff74b6f82e800aff1a018c1": {
+      "selected": true
+    },
+    "c4a03b47f2d5463c947f58dbb34b9244": {
+      "selected": true
+    }
+  },
+  "layer": "00ccc72063764158a0f58e7a7f2c2a62",
+  "isZoom": false,
+  "handleColor": "#dadada",
+  "layerMode": "mult",
+  "defaultLayers": [
+    "0bf58eeca524443c8f2d0d714f42fbc1"
+  ],
+  "invertPlacement": false,
+  "isHidePanel": false
+}
